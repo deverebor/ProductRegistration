@@ -1,7 +1,9 @@
 <h1 align="center">📚 Aplicação utilizando JFrame - Programação Orientada a Objetos II</h1>
 
 <p align="center">
-  <img src="https://cdn.shopify.com/s/files/1/1385/6131/files/homepage-hero-team_grande.gif?v=1506621193">
+  
+![](./.github/assets/POO-ProductRegistration.gif)
+
 </p>
 
 > Atividade aplicada pelo professor Adriano Maia.
