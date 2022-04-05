@@ -9,24 +9,23 @@ public class MainFrame extends JFrame {
   private JButton btnClear;
   private JLabel lbWelcome;
   private JPanel mainPanel;
-  private JLabel lbEmpty;
-
+  
   public MainFrame() {
     setContentPane(mainPanel);
     setTitle("Product Registration");
     setSize(450, 500);
     setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     setVisible(true);
-
+    
     btnOk.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e) {
         String productName = tfProductName.getText();
         String productPrice = tfProductPrice.getText();
-        lbWelcome.setText(productName + " o produto foi cadastrado com sucesso!");
+        lbWelcome.setText(productName + " que custa " + productPrice + " foi cadastrado" + " com sucesso!");
       }
     });
-
+    
     btnClear.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e) {
@@ -36,7 +35,7 @@ public class MainFrame extends JFrame {
       }
     });
   }
-
+  
   public static void main(String[] args) {
     MainFrame myFrame = new MainFrame();
   }
